@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <style>
+        .done{
+            text-decoration: line-through;
+        }
+        .sList{
+            padding-block: 10px;
+        }
+        .delBtn{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Shopping List</h1>
+    <p>Add new items to your shopping list</p>
+    <input type="text" name="item" id="typeitem">
+    <button>Add item</button>
+    <br>
+    <ul id="shoppingList">
+        <li class="sList" pos='1'>Mangoes
+            <button class="delBtn">delete</button>
+        </li>
+        <li class="sList" pos='2'>Apples
+            <button class="delBtn">delete</button>
+        </li>
+    </ul>
+    <script type="text/javascript" src="shoppingList.js"></script>
+</body>
+
+</html>
